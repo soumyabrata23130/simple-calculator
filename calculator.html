@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css" /> 
+		<title>Calculator</title>
+	</head>
+	<body>
+		<table>
+			<tbody>
+				<tr>
+					<td colspan="4"><input type="text" id="input" placeholder="0" readonly /></td>
+				</tr>
+				<tr>
+					<td colspan="4"><input type="text" id="output" placeholder="0" readonly /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><button type="submit" class="btn" id="mod">mod</button></td>
+					<td><button type="submit" class="btn" id="clr">C</button></td>
+					<td><button type="button" class="btn" id="back"><=</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class="btn" id="7">7</button></td>
+					<td><button type="button" class="btn" id="8">8</button></td>
+					<td><button type="button" class="btn" id="9">9</button></td>
+					<td><button type="button" class="btn" id="div">/</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class="btn" id="4">4</button></td>
+					<td><button type="button" class="btn" id="5">5</button></td>
+					<td><button type="button" class="btn" id="6">6</button></td>
+					<td><button type="button" class="btn" id="mul">*</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class="btn" id="3">3</button></td>
+					<td><button type="button" class="btn" id="2">2</button></td>
+					<td><button type="button" class="btn" id="1">1</button></td>
+					<td><button type="button" class="btn" id="sub">-</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" class="btn" id="0">0</button></td>
+					<td><button type="button" class="btn" id="dot">.</button></td>
+					<td><button type="submit" class="btn" id="equ">=</button></td>
+					<td><button type="button" class="btn" id="add">+</button></td>
+				</tr>
+			</tbody>
+		</table>
+		<script src="https://cdn.jsdelivr.net/npm/mathjs@11.11.0/lib/browser/math.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
